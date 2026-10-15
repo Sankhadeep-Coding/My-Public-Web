@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+   color: darkblue;
+}
+
+.pet-card {
+   background-color: white;
+   width: 400px;
+   margin: auto;
+   padding: 25px;
+   border-radius: 20px;
+   box-shadow: 0 5px 15px grey;
+}
+
+.pet-image {
+   width: 250px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+h2 {
+    color: darkorange;
+}
+
+
+.fact-box {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+#message {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+#foodCount {
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+}
